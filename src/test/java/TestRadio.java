@@ -31,4 +31,9 @@ public class TestRadio {
     public void canPlay() {
         assertEquals("playing...", radio.play());
     }
+
+    @Test
+    public void canStop() {
+        assertEquals("stopped.", radio.stop());
+    }
 }
