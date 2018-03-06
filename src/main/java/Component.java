@@ -12,4 +12,8 @@ public abstract class Component {
     public String getMake() {
         return this.Make;
     }
+
+    public String getModel() {
+        return this.Model;
+    }
 }

@@ -16,4 +16,9 @@ public class TestRadio {
     public void canGetMake() {
         assertEquals("Denon", radio.getMake());
     }
+
+    @Test
+    public void canGetModel() {
+        assertEquals("RT101", radio.getModel());
+    }
 }
