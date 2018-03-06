@@ -22,5 +22,13 @@ public class TestCdPlayer {
         assertEquals("CD202", cdPlayer.getModel());
     }
 
+    @Test
+    public void canPlay() {
+        assertEquals("playing...", cdPlayer.play());
+    }
 
+    @Test
+    public void canStop() {
+        assertEquals("stopped.", cdPlayer.stop());
+    }
 }
